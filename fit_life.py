@@ -18,7 +18,7 @@ while True:
     try:
         user_height = float(input('Введи свой рост (в м, например, 1.75): '))
         if not (0.5 <= user_height <= 2.5):
-            print('Ошибка: рост должен быть в диапазоне от 0.5 м до 2.5 м')
+            print('Ошибка: рост должен быть в диапазоне 0.5 м - 2.5 м')
             continue
         break
     except ValueError:
